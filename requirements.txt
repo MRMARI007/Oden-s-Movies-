@@ -1,7 +1,7 @@
 # --- For-Bot-Working --------- #
 pyrogram
 TgCrypto
-pyrogram==2.0.106
+pyrogram==1.50
 # --- For-Database ------------ #
 pymongo
 dnspython
