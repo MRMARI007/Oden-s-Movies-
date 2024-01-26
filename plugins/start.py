@@ -119,12 +119,12 @@ REPLY_ERROR = """<code>Use this command as a reply to any telegram message with 
 async def not_joined(client: Client, message: Message):
     buttons = [
         [
-            InlineKeyboardButton(text="Join Channel 1", url=client.invitelink),
-            InlineKeyboardButton(text="Join Channel 2", url=client.invitelink2),
+            InlineKeyboardButton(text="Join Channel 1 ", url=client.invitelink),
+            InlineKeyboardButton(text=" Join Channel 2 ", url=client.invitelink2),
         ]
     ]
     try:
-        buttons.append
+        buttons.append(
             [
                 InlineKeyboardButton(
                     text = 'Try Again',
