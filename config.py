@@ -11,26 +11,26 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
+TG_BOT_TOKEN = os.environ.get("6467531922:AAEQoD3p0kQB9YTKZTHBkNU1m2NtHhgId9s", "")
 
 #Your API ID from my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", ""))
+APP_ID = int(os.environ.get("27494774", ""))
 
 #Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "")
+API_HASH = os.environ.get("65f2c43c01f4757dcc875de35249829b", "")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
+CHANNEL_ID = int(os.environ.get("-1001649343645", ""))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", ""))
+OWNER_ID = int(os.environ.get("2136908929", ""))
 
 #Port
 PORT = os.environ.get("PORT", "8030")
 
 #Database
-DB_URI = os.environ.get("DATABASE_URL", "")
-DB_NAME = os.environ.get("DATABASE_NAME", "filesharexbot")
+DB_URI = os.environ.get("mongodb+srv://SaturuGojo:SaturuGojo@cluster0.ikrb9xv.mongodb.net/?retryWrites=true&w=majority", "")
+DB_NAME = os.environ.get("SaturuGojo", "filesharexbot")
 JOIN_REQS_DB = environ.get("JOIN_REQS_DB", DB_URI)
 
 
